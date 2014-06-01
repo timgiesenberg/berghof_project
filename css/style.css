@@ -1,0 +1,341 @@
+body {
+  background: url("../img/background.jpg") no-repeat top center;
+  max-width: 100%;
+  background-attachment: fixed;
+  /* this keeps the background in place */
+    font-family: "Raleway", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #fff;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1200px;
+}
+
+
+.sidebar {
+  background: #fff;
+  min-height: 100%;
+  width: 270px;
+  float: left;
+  position: fixed;
+}
+
+.sidebar .navigation {
+  text-align: center;
+  min-height: 100%;
+  position: fixed;
+  top: 20px;
+  width: 270px;
+}
+
+.sidebar .navigation .logo {
+  margin-bottom: 120px;
+}
+
+.sidebar .navigation .sidenav {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .navigation .sidenav li {
+  list-style-type: none;
+  line-height: 45px;
+}
+.sidebar .navigation .sidenav li a {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.sidebar .navigation .sidenav li a:hover {
+  color: #858585;
+}
+
+.sidebar .navigation .sidenav li a.active {
+  color: #858585;
+}
+
+.sidebar .navigation .sidenav li:hover .smallerNav {
+  display: block;
+}
+
+.sidebar .navigation .sidenav li .smallerNav {
+  display: none;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.sidebar .navigation .sidenav li .smallerNav li {
+  line-height: 25px;
+}
+
+.sidebar .navigation .sidenav li .smallerNav li a {
+  color: #858585;
+  font-size: 16px;
+}
+
+.sidebar .navigation .sidenav li .smallerNav li a:not(.button):hover, .sidebar .navigation .sidenav li .smallerNav li a .side-nav li a:not(.button):focus {
+  color: #728413;
+}
+
+.sidebar .navigation p {
+  color: #858585;
+}
+
+
+#angebote .panel.green {
+  margin-top: 100px;
+  height: 246px;
+}
+
+#sommerspiele .content {
+  height: 1240px;
+}
+
+#sommerspiele ul.kalender {
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+#sommerspiele ul.kalender li {
+  list-style-type: none;
+}
+
+#sommerspiele ul.kalender li button {
+  background: #F3F3F3;
+  border: 1px solid #dddddd;
+  width: 100%;
+  height: 50px;
+  line-height: 10px;
+}
+
+#sommerspiele ul.kalender li.active button {
+  background: #728413;
+}
+
+#sommerspiele ul.kalender li.active button h4 {
+    color: #fff;
+}
+
+#sommerspiele ul.kalender li:hover button {
+  background: #728413;
+}
+
+#sommerspiele ul.kalender li:hover button h4 {
+    color: #fff;
+}
+
+#sommerspiele ul.kalender li .desc {
+  background: #fff;
+  border: 1px solid #dddddd;
+  display: none;
+  padding: 50px 40px;
+}
+
+#sommerspiele ul.kalender li .desc.active {
+    display: block;
+}
+
+
+.content {
+  background: white url("../img/shadow.png") repeat-y top left;
+  height: 1000px;
+  width: 930px;
+  float: right;
+}
+
+.content .contentText {
+  padding: 0 50px;
+}
+@media only screen and (max-width: 40em) {
+
+  .content .contentText {
+    padding: 0;
+  }
+}
+
+.content .contentText h1 {
+  color: #fff;
+  margin: -110px 0 0 0;
+}
+@media only screen and (max-width: 40em) {
+
+  .content .contentText h1 {
+    margin: -50px 0 0 10px;
+  }
+}
+
+.content .contentText .startHeadline h2 {
+  margin-top: 25px;
+}
+
+.content .contentText .twoColumns p {
+  margin-bottom: 30px;
+   column-count:2;
+   -moz-column-count:2; /* Firefox */
+   -webkit-column-count:2; /* Safari and Chrome */
+}
+
+.content .teaserPic {
+  margin: 0 0 50px 0;
+  width: 100%;
+}
+@media only screen and (max-width: 40em) {
+
+  .content .teaserPic {
+    margin: 10px 0 10px 0;
+  }
+}
+
+footer {
+  background: #728413;
+  position: fixed;
+  bottom: 0;
+    padding: 5px 0px;
+    height: 20px;
+  width: 1200px;
+}
+
+footer a{
+  margin: 0 0 0 20px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #A7C411;
+}
+
+
+h1, h2, h3, h4, p {
+  color: #333;
+}
+
+
+h1 {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+h1.other {
+  background: #728413;
+  opacity: 0.8;
+  width: 300px;
+  padding-left: 17px;
+}
+@media only screen and (max-width: 40em) {
+
+  h1.other {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 40em) {
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 40em) {
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+h3 {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 40em) {
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+a {
+  color: #728413;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a.mailContact {
+  color: #728413;
+}
+
+a.mailContact:hover {
+  color: #A7C411;
+}
+
+
+table thead tr th {
+  background: #728413;
+  color: #fff;
+}
+
+table tbody tr td {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+
+.panel.green {
+  background: #728413;
+  border: none;
+  height: 336px;
+  width: 25%;
+  padding: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+.panel.green h1, .panel.green h2, .panel.green h3, .panel.green p, .panel.green span {
+  color: #fff;
+}
+
+.panel.green h3 {
+  text-align: center;
+}
+
+.panel.green .panelPic {
+  border: 3px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.panel.green.center {
+  margin-left: 41px;
+  margin-right: 41px;
+}
+
+
+.moreSpace {
+  margin-top: 50px;
+}

@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Der Berghof</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,800,700,900' rel='stylesheet' type='text/css'>
+	<link href="img/favicon.ico" rel="shortcut icon" />
+
+	<script src="js/javascript.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<script>
+
+		$('.kalender').on('click','li', function(){
+			$(this).addClass('active').siblings().removeClass('active');
+		});
+
+	</script>
+</head>
+<body>
+<div class="row wrapper" id="sommerspiele">
+	<div class="sidebar">
+		<div class="navigation">
+			<ul class="sidenav">
+				<a href="index.html">
+					<img class="logo" alt="Berghof Logo" src="img/logo.png">
+				</a>
+				<li>
+					<a href="index.html">Der Berghof</a>
+				</li>
+				<li>
+					<a href="angebote.html">Unsere Angebote</a>
+					<ul class="smallerNav">
+						<li>
+							<a href="angebote.html">Wohnen</a>
+						</li>
+						<li>
+							<a href="angebote.html">Ferienaktionen</a>
+						</li>
+						<li>
+							<a href="angebote.html">Ausflüge</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a class="active" href="sommerspiele.html">Sommerspiele 2014</a>
+				</li>
+				<li>
+					<a href="kontakt.html">Kontakt</a>
+				</li>
+				<li>
+					<a href="impressum.html">Impressum</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="content">
+		<img class="teaserPic" src="img/sommerspiele.jpg" alt="Der Berghof">
+		<div class="contentText">
+
+			<h1>Sommerspiele 2014</h1>
+
+			<ul class="kalender">
+				<li>
+					<button onclick="buttonClick(document.getElementById())"><h4>16.07.2014 "Der Natur auf der Spur"</h4></button>
+					<div class="desc active">
+						<h5>Alter: </h5>
+						<p>6 bis 12 Jahre</p>
+						<h5>Uhrzeit:</h5>
+						<p>Ab 9.00 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Verschlungene Pfade, stille Gewässer, spektakuläre Aussichten: Bei abenteuerlichen
+							Exkursionen durch Flora und Fauna rund um den Berghof sind wir gemeinsam mit den Kids den
+							Geheimnissen von Wald, Wiese und Bach auf der Spur.
+						</p>
+					</div>
+				</li>
+				<li>
+                    <button><h4>17.07.2014 "Märchen-Feeling"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kinder von 4 bis 8 Jahren</p>
+						<h5>Uhrzeit:</h5>
+						<p>13 bis 18 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Wollt Ihr die Welt der Märchen neu erleben und Euch als schöne Prinzessin oder mutigen
+							Ritter fühlen? Um das richtige Märchen-Feeling zu bekommen, werden wir einen Ausflug zu einer eindrucksvollen Burg unternehmen.
+						</p>
+					</div>
+				</li>
+				<li>
+                    <button><h4>26.07.2014 "Musik aus der Natur"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kinder von 6 bis 12 Jahren</p>
+						<h5>Uhrzeit:</h5>
+						<p>14.30 bis ca. 18.30 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Mit dem Musikverein Heubach: Bei einer gemeinsamen kleinen Wanderung sammeln wir Materialien,
+							mit denen wir Instrumente bauen, um ein Klangspiel aufzunehmen. Im Anschluss wird gegrillt.
+						</p>
+					</div>
+				</li>
+				<li>
+                    <button><h4>31.07.2014 "Kindertheater „Paulchen und die BlubbBlubbs“"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kinder ab 4 Jahre</p>
+						<h5>Uhrzeit:</h5>
+						<p>Beginn: 17 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Zusammen mit den Kindern entdeckt Paul das Geheimnis der Zauberkiste ...
+						</p>
+					</div>
+				</li>
+				<li>
+                    <button><h4>02.08.2014 "Fackelbau"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kinder ab 6 Jahre</p>
+						<h5>Uhrzeit:</h5>
+						<p>17.30 Uhr bis ca. 20 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Wir sammeln Fackelholz, schmelzen Wachs und bauen eine Fackel. Ist es dunkel genug, machen wir eine Fackel-Wanderung und werden gemeinsam grillen.
+						</p>
+					</div>
+				</li>
+				<li>
+                    <button><h4>06.08.2014 "Sportsnight"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kids von 12 bis 17 Jahren</p>
+						<h5>Uhrzeit:</h5>
+						<p>19.30 Uhr bis 22 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Fußball, Hockey, Basketball, Badminton oder Tischtennis? Es darf gewählt werden.
+						</p>
+						<button class="tiny button right">jetzt anmelden</button>
+					</div>
+				</li>
+				<li>
+                    <button><h4>14.08.2014 "Märchennacht"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kinder und Erwachsene</p>
+						<h5>Uhrzeit:</h5>
+						<p>Beginn: 20 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Märchen, Mythen, Sagen und phantastische Geschichten.
+							In der Kulturscheune
+						</p>
+					</div>
+				</li>
+				<li>
+                    <button><h4>15.08.2014 "Familien-Radtour"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kinder und Erwachsene</p>
+						<h5>Uhrzeit:</h5>
+						<p>Beginn: 9 Uhr </p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Die Familien-Radtour findet jährlich immer mehr begeisterte Anhänger.
+							Drei Streckenlängen – von 15, 25 oder 50 Kilometer – stehen zur Verfügung.
+							Familien mit kleinen Kindern radeln die 15 Kilometer-Strecke durch das Heuchbachtal.
+							Trainierte Radler nehmen die 50 Kilometer-Strecke in Angriff. Knapp 800 Höhenmeter Unterschied
+							müsen auf der Route über Heubach, Bernbach, über Michelsbach zum Naturpark Schönwald überwunden werden.
+						</p>
+					</div>
+				</li>
+				<li>
+                    <button><h4>21.08.2014 "Hoffest"</h4></button>
+					<div class="desc">
+						<h5>Alter: </h5>
+						<p>Für Kinder und Erwachsene</p>
+						<h5>Uhrzeit:</h5>
+						<p>Beginn: 11 Uhr</p>
+						<h5>Beschreibung: </h5>
+						<p class="descText">Das Angebot zum Hoffest verspricht einen abwechslungsreichen unterhaltsamen Tag für die
+							ganze Familie, mit vielen Ständen mit Obst, Gemüse aus heimischem Anbau, Käse, Wurst und
+							Fleisch, Geflügel, Kürbisse, einer Ausstellung historischer und neuer Handwerksgeräte und Fahrzeuge.
+							Für die Kinder: Kutschfahrten, Ponyreiten, Wettmelken und Streichelzoo.
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+    <footer>
+        <a href="index.html">Der Berghof</a>
+        <a href="angebote.html">Unsere Angebote</a>
+        <a href="sommerspiele.html">Sommerspiele 2014</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+    </footer>
+
+</div>
+
+
+
+</body>
+</html>
