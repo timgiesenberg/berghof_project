@@ -1,3 +1,10 @@
+html {
+    font-size: 1.000em; /* 1 */
+    -webkit-text-size-adjust: 1.000em; /* 2 */
+    -ms-text-size-adjust: 1.000em; /* 2 */
+}
+
+
 body {
   background: url("../img/background.jpg") no-repeat top center;
   max-width: 100%;
@@ -30,12 +37,12 @@ body {
   text-align: center;
   min-height: 100%;
   position: fixed;
-  top: 20px;
+  top: 1.250em;
   width: 270px;
 }
 
 .sidebar .navigation .logo {
-  margin-bottom: 120px;
+  margin-bottom: 11.250em;
 }
 
 .sidebar .navigation .sidenav {
@@ -49,7 +56,7 @@ body {
 }
 .sidebar .navigation .sidenav li a {
   font-family: "Raleway", Arial, sans-serif;
-  font-size: 19px;
+  font-size: 1.188em;
   font-weight: 600;
   text-decoration: none;
 }
@@ -67,7 +74,7 @@ body {
 
 .sidebar .navigation .sidenav li .smallerNav {
   display: none;
-  margin: 0 0 20px 0;
+  margin: 0 0 1.250em 0;
   padding: 0;
 }
 
@@ -77,7 +84,7 @@ body {
 
 .sidebar .navigation .sidenav li .smallerNav li a {
   color: #858585;
-  font-size: 16px;
+  font-size: 1.000em;
 }
 
 .sidebar .navigation .sidenav li .smallerNav li a:not(.button):hover, .sidebar .navigation .sidenav li .smallerNav li a .side-nav li a:not(.button):focus {
@@ -198,14 +205,14 @@ footer {
   position: fixed;
   bottom: 0;
     padding: 5px 0px;
-    height: 20px;
+    height: 1.250em;
   width: 1200px;
 }
 
 footer a{
-  margin: 0 0 0 20px;
+  margin: 0 0 0 1.250em;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.750em;
   line-height: 17px;
   text-decoration: none;
 }
@@ -221,7 +228,7 @@ h1, h2, h3, h4, p {
 
 
 h1 {
-  font-size: 33px;
+  font-size: 2.00em;
   font-weight: 300;
 }
 
@@ -240,43 +247,43 @@ h1.other {
 @media only screen and (max-width: 40em) {
 
   h1 {
-    font-size: 20px;
+    font-size: 1.250em;
   }
 }
 
 
 h2 {
-  font-size: 25px;
+  font-size: 1.563em;
   font-weight: 500;
 }
 @media only screen and (max-width: 40em) {
 
   h2 {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 }
 
 h3 {
   font-family: "Raleway", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 1.250em;
   font-weight: 500;
 }
 @media only screen and (max-width: 40em) {
 
   h3 {
-    font-size: 16px;
+    font-size: 1.000em;
   }
 }
 
 p {
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 0.750em;
 }
 
 a {
   color: #728413;
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 0.950em;
 }
 
 a:hover {
@@ -299,7 +306,7 @@ table thead tr th {
 
 table tbody tr td {
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 0.750em;
 }
 
 
@@ -308,9 +315,9 @@ table tbody tr td {
   border: none;
   height: 336px;
   width: 25%;
-  padding: 20px;
+  padding: 1.250em;
   float: left;
-  margin-top: 20px;
+  margin-top: 1.250em;
   margin-bottom: 90px;
 }
 
