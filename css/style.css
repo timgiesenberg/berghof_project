@@ -319,6 +319,7 @@ table tbody tr td {
   float: left;
   margin-top: 1.250em;
   margin-bottom: 90px;
+  /* box-shadow: #333 1px 1px 10px; */
 }
 
 .panel.green h1, .panel.green h2, .panel.green h3, .panel.green p, .panel.green span {
