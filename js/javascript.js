@@ -5,6 +5,13 @@
  * Time: 15:22
  * To change this template use File | Settings | File Templates.
  */
-function buttonClick(aa) {
- alert('HI' + aa);
+function buttonClick(id) {
+    var div = document.getElementById(id);
+    
+    for(var i = 1; i <= 9; i++){
+        var current = document.getElementById("desc"+i);
+        current.className = "desc"
+    }
+    
+    div.className = "desc active"
 }
